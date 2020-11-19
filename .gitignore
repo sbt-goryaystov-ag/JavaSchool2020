@@ -1,0 +1,13 @@
+/target/
+/lib/
+/templates/
+/_windows/
+/inspection/
+/.idea/
+/codestyles/
+*.bat
+*.cmd
+/*.xml
+!pom.xml
+.iml
+.idea
