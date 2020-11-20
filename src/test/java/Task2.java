@@ -10,7 +10,6 @@ public class Task2 {
         System.out.print("Input b number: ");
         int b = in.nextInt();
         in.close();
-        float c = (float) a / b;
-        System.out.println("Result of devision a on b: " + c);
+        System.out.println("Result of devision a on b with remains: " + a + "/" + b + " = " + a / b + " и " + a%b + " in remains");
     }
 }
