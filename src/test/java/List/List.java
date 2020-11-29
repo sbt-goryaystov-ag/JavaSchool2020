@@ -15,6 +15,7 @@ public class List {
     public void add(Object item) {
         if (item == null) {
             System.out.println("Don't add null object!");
+            return;
         }
         Node tmpItem = new Node(item);
         Node lastItem = findLast();
