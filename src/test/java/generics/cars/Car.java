@@ -1,4 +1,4 @@
-package collections;
+package generics.cars;
 
 import java.util.Objects;
 
