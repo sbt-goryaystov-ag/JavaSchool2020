@@ -1,4 +1,4 @@
-package generics.cars;
+package exception.cars;
 
 public class CarWithPrice extends TurboTransmissionCar {
 

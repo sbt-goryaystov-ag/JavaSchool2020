@@ -1,7 +1,7 @@
-package generics;
+package exception;
 
-import generics.cars.Car;
-import generics.cars.TurboTransmissionCar;
+import exception.cars.Car;
+import exception.cars.TurboTransmissionCar;
 
 import java.util.Collection;
 

@@ -1,6 +1,6 @@
-package generics.methods;
+package exception.methods;
 
-import generics.cars.Car;
+import exception.cars.Car;
 
 import java.util.ArrayList;
 import java.util.Collection;

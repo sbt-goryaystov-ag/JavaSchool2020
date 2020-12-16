@@ -1,6 +1,6 @@
-package generics.methods;
+package exception.methods;
 
-import generics.cars.CarWithPrice;
+import exception.cars.CarWithPrice;
 
 import java.util.*;
 

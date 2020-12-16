@@ -1,4 +1,4 @@
-package generics.cars;
+package exception.cars;
 
 import java.util.Objects;
 
