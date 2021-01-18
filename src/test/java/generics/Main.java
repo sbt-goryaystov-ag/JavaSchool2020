@@ -93,8 +93,8 @@ public class Main {
         System.out.println(youngCar);
 
         // 4 - 5 задания
-        Imethods imethods = new CarImpl();
-        Car maxCar = (Car) imethods.max(list);
+        Imethods<Car> imethods = new CarImpl();
+        Car maxCar = imethods.max(list);
         System.out.println("Method max---------------------------------------------------------------");
         System.out.println(maxCar);
 
@@ -114,8 +114,8 @@ public class Main {
         System.out.println("List cars ---------------------------------------------------------------");
         System.out.println(carWithPriceList);
 
-        Imethods imethods2 = new CarWithPriceImpl();
-        CarWithPrice maxCarWithPrice = (CarWithPrice) imethods2.max(carWithPriceList);
+        Imethods<CarWithPrice> imethods2 = new CarWithPriceImpl();
+        CarWithPrice maxCarWithPrice = imethods2.max(carWithPriceList);
         System.out.println("Method max---------------------------------------------------------------");
         System.out.println(maxCarWithPrice);
 
